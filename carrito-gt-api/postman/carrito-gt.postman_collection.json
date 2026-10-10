@@ -1,0 +1,203 @@
+{
+  "info": {
+    "_postman_id": "1c1cfa3b-08e1-45f1-be69-9fb9443acd9b",
+    "name": "carrito-gt",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "43995569",
+    "_collection_link": "https://go.postman.co/collection/43995569-1c1cfa3b-08e1-45f1-be69-9fb9443acd9b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "productos",
+      "item": [
+        {
+          "name": "listar-prodcutos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/productos/list",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "productos",
+                "list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "buscar-prodcuto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/productos/list",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "productos",
+                "list"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "shopping-cart",
+      "item": [
+        {
+          "name": "obtener-carrito-usuario",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/shopping-cart/list/USR123",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "shopping-cart",
+                "list",
+                "USR123"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "agregar-producto-carrito",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"idProducto\": 4,\r\n  \"cantidad\": 2\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/shopping-cart/add/USR123",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "shopping-cart",
+                "add",
+                "USR123"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "obtener-carrito-id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/shopping-cart/listId/11",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "shopping-cart",
+                "listId",
+                "11"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "eliminar-producto-carrito",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/shopping-cart/delete/500",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "shopping-cart",
+                "delete",
+                "500"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "vaciar-carrito-usuario",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8081/api/shopping-cart/clear/8aadd458-95a2-4eae-9e4d-d69988c96413",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "shopping-cart",
+                "clear",
+                "8aadd458-95a2-4eae-9e4d-d69988c96413"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
