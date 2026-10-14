@@ -12,6 +12,4 @@ public interface ShoppingCartRepository extends JpaRepository<ShoppingCart, Inte
     // Busca todos los productos que pertenecen al carrito de un usuario.
     List<ShoppingCart> findByCodUsuario(String codUsuario);
 
-    // Elimina todos los productos que pertenecen al carrito de un usuario.
-    void deleteByCodUsuario(String codUsuario);
 }

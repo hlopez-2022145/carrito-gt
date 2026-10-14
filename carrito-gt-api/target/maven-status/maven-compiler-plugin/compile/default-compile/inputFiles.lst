@@ -1,0 +1,14 @@
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/dto/AgregarCarritoRequestDto.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/service/ProductoService.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/dto/ApiResponse.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/repository/ShoppingCartRepository.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/domain/ShoppingCart.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/controller/ShoppingCartController.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/exception/Exceptions.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/controller/ProductoController.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/repository/ProductoRepository.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/config/CorsConfig.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/service/ShoppingCartService.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/ApiApplication.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/domain/Producto.java
+/media/sf_IdeaProjects/carrito-gt-api/src/main/java/com/carritogt/api/util/Utilities.java
