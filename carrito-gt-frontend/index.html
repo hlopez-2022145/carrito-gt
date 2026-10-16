@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarritoGT - Tienda Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con información del Carrito -->
+    <header class="navbar">
+        <div class="logo">
+            <h1>CarritoGT</h1>
+        </div>
+        <div class="cart-status">
+            <div class="cart-info">
+                <span>Items: <strong id="cart-count">0</strong></span>
+                <span>Total: <strong>Q.<span id="cart-total">0.00</span></strong></span>
+            </div>
+            <button id="btn-ver-carrito" class="btn-cart">Ver Carrito</button>
+        </div>
+    </header>
+
+    <!-- Contenedor Principal de Productos -->
+    <main class="container">
+        <h2>Catálogo de Productos</h2>
+        <div id="mensaje-alerta" class="alert-box hidden"></div>
+        
+        <div id="contenedor-productos" class="grid-productos">
+            <p class="cargando">Cargando catálogo desde la API REST...</p>
+        </div>
+    </main>
+
+    <!-- Modal para gestionar/ver el Carrito de Compras -->
+    <div id="modal-carrito" class="modal hidden">
+        <div class="modal-content">
+            <span id="btn-cerrar-modal" class="close">&times;</span>
+            <h2>Tu Carrito de Compras</h2>
+            
+            <div id="items-carrito-modal" class="modal-body">
+                <p>El carrito está vacío.</p>
+            </div>
+            
+            <div class="modal-footer">
+                <h3>Total a Pagar: Q.<span id="modal-cart-total">0.00</span></h3>
+                <button id="btn-vaciar-carrito" class="btn-danger">Vaciar Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Módulo Principal de JS -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
